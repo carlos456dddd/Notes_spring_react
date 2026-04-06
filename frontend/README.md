@@ -2,20 +2,35 @@
 
 Este es el frontend para la Aplicación de Notas, construido utilizando **React**. Este proyecto provee la interfaz visual para que el usuario interactúe con la API del backend.
 
-## Prerrequisitos
+## 📦 Versiones y Tecnologías Clave
+
+Este proyecto utiliza las siguientes librerías principales (ver `package.json` para el listado completo):
+
+*   **React:** `^19.2.3` - Core para la interfaz de componentes.
+*   **React DOM:** `^19.2.3` - Gestión del DOM web.
+*   **React Router DOM:** `^7.11.0` - Manejo de rutas y navegación dentro de la app (Navegación SPA).
+*   **Axios:** `^1.13.2` - Cliente HTTP basado en promesas usado para conectarse a la API de Spring Boot.
+
+## ⚙️ Prerrequisitos
 
 Antes de iniciar este proyecto, asegúrate de tener instalado:
-- **Node.js** (versión recomendada LTS)
+- **Node.js** (versión recomendada **v18 LTS** o superior)
 - **npm** (usualmente se instala junto con Node.js)
 
-## Instalación
+## 🚀 Instalación y Preparación
 
-1. Abre una terminal dentro de la carpeta `frontend`.
-2. Instala todas las dependencias necesarias ejecutando el siguiente comando:
+Para tener todo el código descargado y listo para funcionar en tu máquina local:
+
+1. Abre una terminal y colócate específicamente dentro de la carpeta `frontend`:
+   ```bash
+   cd frontend
+   ```
+2. Ejecuta el comando de instalación de Node Package Manager (NPM). Esto leerá el archivo `package.json`, descargará todas las librerías mencionadas (React, Axios, etc.) de internet y creará una carpeta oculta `node_modules`.
 
    ```bash
    npm install
    ```
+   *(Nota: Este paso puede demorar un par de minutos la primera vez dependiendo de tu conexión a internet).*
 
 ## Cómo ejecutar la aplicación
 
